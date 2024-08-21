@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "nombre": "Tomate redondo",
+    "precio": 50,
+    "stock": 10,
+    "imagen": "/assest/imagenes/Tomate Redondo.jpg",
+    "descripcion": "Tomate redondo $ por unidad",
+    "category": "Verduras"
+  },
+
+  {
+    "id": 2,
+    "nombre": "Tomate perita",
+    "precio": 35,
+    "stock": 10,
+    "imagen": "/assest/imagenes/Tomate perita.webp",
+    "descripcion": "Tomate perita $ por unidad",
+    "category": "Verduras"
+  },
+
+  {
+    "id": 3,
+    "nombre": "Lechuga",
+    "precio": 20,
+    "stock": 10,
+    "imagen": "/assest/imagenes/Lechuga.jpg",
+    "descripcion": "Lechuga $ la planta",
+    "category": "Verduras"
+  },
+
+  {
+    "id": 4,
+    "nombre": "Manzana",
+    "precio": 5,
+    "stock": 10,
+    "imagen": "/assest/imagenes/Manzanas.jpg",
+    "descripcion": "Manzana por unidad",
+    "category": "Frutas"
+  },
+
+  {
+    "id": 5,
+    "nombre": "Banana",
+    "precio": 10,
+    "stock": 10,
+    "imagen": "/assest/imagenes/Bananas.jpg",
+    "descripcion": "Banana por unidad",
+    "category": "Frutas"
+  },
+
+  {
+    "id": 6,
+    "nombre": "Huevos",
+    "precio": 1,
+    "stock": 10,
+    "imagen": "/assest/imagenes/Huevos.jpg",
+    "descripcion": "Huevos por Unidad",
+    "category": "Huevos"
+  },
+
+  {
+    "id": 7,
+    "nombre": "Leche",
+    "precio": 25,
+    "stock": 10,
+    "imagen": "/assest/imagenes/Leche.jpg",
+    "descripcion": "Leche pasteurizada por Litro",
+    "category": "Lacteos"
+  }
+]

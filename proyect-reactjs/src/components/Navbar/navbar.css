@@ -2,12 +2,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: chartreuse;
+  background-color: rgb(134, 228, 33);
   padding: 10px 20px;
 }
 
-.logo {
-  color: white;
-  font-size: 2rem;
+.navbar-logo {
+  color: rgb(113, 148, 107);
+  font-size: 1.5rem;
   font-weight: bold;
+}
+.links-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-ref {
+  color: white;
 }

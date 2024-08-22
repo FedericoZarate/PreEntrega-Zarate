@@ -17,7 +17,7 @@ const ItemDetailContainern = ({ greeting }) => {
         const response = await fetch("/productos.json");
         const data = await response.json();
         const filteredProducts = categoryId
-          ? data.filter((p) => p.categoryId)
+          ? data.filter((p) => p.category === categoryId)
           : data;
         setProducts(filteredProducts);
       } catch (error) {

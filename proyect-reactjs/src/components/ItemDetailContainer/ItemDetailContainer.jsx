@@ -14,13 +14,14 @@ const ItemDetailContainer = () => {
       try {
         const response = await fetch("/productos.json");
         const data = await response.json();
-        setProduct(data.find((p) => p.id === id));
+        const newProduct = data.find((p) => p.id === Number(id));
+        setProduct(newProduct);
       } catch (error) {
         console.log(error);
       }
     };
     fetchData();
-  }, [id]);
+  }, []);
   console.log(product);
 
   return (
